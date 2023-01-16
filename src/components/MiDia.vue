@@ -11,8 +11,12 @@
 </template>
 
 <script setup>
-function mostrar() {
-  console.log("hola");
+const props = defineProps ({
+  eventos: Array
+})
+
+function cargarEvento(){
+  
 }
 </script>
 

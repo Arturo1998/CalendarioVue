@@ -2,7 +2,7 @@
   <div class="container mx-auto">
     <div class="flex justify-center">
       <button
-        class="rounded-full bg-sky-500 w-10 h-10 absolute left-10"
+        class="rounded-full bg-slate-700 w-10 h-10"
         @click="abierto = true"
       >
         <img src="../assets/icono+.png" alt="" class="" />
@@ -10,7 +10,7 @@
 
       <div
         v-if="abierto"
-        class="absolute inset-0 flex items-center justify-center bg-gray-700 bg-opacity-50"
+        class="absolute w-auto h-auto inset-0 flex items-center justify-center bg-gray-700 bg-opacity-50 h-screen"
       >
         <div
           class="p-6 bg-gradient-to-t from-white via-sky-200 to-sky-500 rounded-md shadow-xl"

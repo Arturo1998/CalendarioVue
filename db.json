@@ -1,0 +1,5 @@
+{
+    "eventos": [
+      { "id": 1, "titulo": "Entrenamiento", "descripcion": "Futbol", "fecha": "04/01/2023", "hora": "14:00" }
+    ]
+  }
